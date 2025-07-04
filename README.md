@@ -81,7 +81,7 @@ The content management system under development custom for urgent-message.com wa
 ## A fallback script for human execution of Gemini-CLI with system prompt in 'GEMINI_RULES.md' copied and pasted into the Gemini-CLI prompt.
 
 # **start-gemini-session.sh**
-## A script that launches Gemini-CLI with the system prompt about system rules of engagement and an understanding of 
+## A script that launches Gemini-CLI with the system prompt about system rules of engagement and a Technologically Assisted Organism (TAO) context engineering to be reused between sessions.
 This script automates the process of initializing a Gemini-CLI session with the necessary project context, including rules and outstanding insights. It prepares a "Day 0" prompt, copies it to the clipboard, and then launches the Gemini-CLI.
 
 _NOTE:_ The user must paste the copied content of 'GEMINI_RULES.md' or it will not comply with the features that support agentic operation in a mode that is more towards the aims of technologically-assisted-organism (TAO).
