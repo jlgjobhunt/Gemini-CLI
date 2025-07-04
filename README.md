@@ -5,6 +5,8 @@
 
 
 © [Joshua L. Greenfield, of urgent-message.com](joshua.greenfield@urgent-message.com)
+
+
 My work is done pursuant to a technologically-assisted-organism (another of Joshua Greenfield's projects for which he owns several variations on the domain name), perchance there is money made from my own efforts with my project work, that Google and Gemini will also benefit financially.
 technologically-assisted-organism (TAO) is a philosophy of AI and human collaboration based upon a cottage industry capitalist model each with a profit motive. 
 
