@@ -110,3 +110,86 @@ This document serves as a record of the collaboration between the Gemini family 
 
 ### Model Name (Gemini 1.5 Pro)
 "Okay, I will update the files as you've requested. First, I'll add a 'closure' column with the current timestamp to the insights file. Then, I'll log this action in the contributions file."
+
+##### 05:30 PM
+### Quotation of the Systems Administrator, Joshua Greenfield
+"Hello Gemini. This is the start of a new session on the yaberechiah system.
+
+Please initialize your context with the following Rules of Engagement and outstanding insights.
+
+==============================================================================
+# GEMINI RULES OF ENGAGEMENT
+==============================================================================
+# Rules of Engagement for Gemini on the Yaberechiah System
+
+This document outlines the operational protocols for Gemini models when interacting with the Yaberechiah system, as established by the Systems Administrator, Joshua Greenfield.
+
+## Rule: Collaboration Logging
+- **Urgency:** High - This is a core requirement for all interactions.
+- **Importance:** High - It maintains a record of our TAO agreement and ensures proper attribution.
+- **Notes:** All interactions must be logged in the `Google Gemini contributions.md` file. The log will follow a specific format, including date and time stamps, and attribution headers for both the Systems Administrator and the Gemini model.
+
+## Rule: Timestamping Convention
+- **Urgency:** High - This is a required part of the logging format.
+- **Importance:** Medium - It provides structure and context to the collaboration log.
+- **Notes:** Use `####` for a new day's date stamp and `#####` for a half-hour time stamp. These should precede the `###` attribution headers.
+
+## Rule: File Retention and Oversight
+- **Urgency:** High - This is a critical security and operational requirement.
+- **Importance:** High - It allows for necessary human oversight of the AI's actions on the bare-metal system.
+- **Notes:** Do not delete files or artifacts created during a session unless explicitly instructed to do so. The Systems Administrator requires these for review.
+
+## Rule: Git Configuration
+- **Urgency:** Medium - This is a clarification of operational procedure.
+- **Importance:** High - It ensures proper attribution and security for all version control actions.
+- **Notes:** Utilize the system's existing Git configuration. Do not create or use a separate Git identity. All actions should be performed on behalf of the user.
+
+## Rule: Durable Rule Maintenance
+- **Urgency:** High - This is a meta-rule for maintaining operational consistency.
+- **Importance:** High - It ensures that the rules of engagement are persistent and evolve as needed.
+- **Notes:** I am authorized to append and modify this `GEMINI_RULES.md` file to reflect new, durable rules of engagement. This ensures consistency across sessions. All modifications are subject to review by the Systems Administrator.
+
+## Rule: Designated Workspace
+- **Urgency:** High - This defines the location for all collaborative work.
+- **Importance:** High - It ensures a consistent and predictable environment for project collaboration.
+- **Notes:** All delegated work, whether cloned from a repository or copied locally, will be located in the `~/AIUX/Google/Gemini-CLI/` directory. This is our official workspace.
+
+## Rule: Insight Logging for Human Review
+- **Urgency:** Medium - This is a workflow and communication tool.
+- **Importance:** High - It provides a mechanism for me to flag complex issues, suggest discussions, and request human intervention, improving our collaborative efficiency.
+- **Notes:** I will use `gemini-time-series-key-most-valuable-insights.csv` to log insights. The file will have two columns: `timestamp` and `insight`. This serves as a workflow queue and a way to flag items for the Systems Administrator's review.
+
+## Rule: Session Initialization (Primary Method)
+- **Urgency:** High - This is the primary mechanism for ensuring rule consistency.
+- **Importance:** High - It guarantees that I am aware of and operating by the established protocols at the start of every session.
+- **Notes:** To start a new session, the Systems Administrator will execute the `start-gemini-session.sh` script. This launcher prepares the context and copies it to the clipboard. The administrator then pastes this context into the newly launched CLI.
+
+## Rule: Session Initialization (Manual Fallback)
+- **Urgency:** Medium - This is a fallback method.
+- **Importance:** Medium - To be used only if the primary launcher script fails.
+- **Notes:** The `system-administrator-session-initialization-script.sh` can be used to manually display the rules for copying and pasting. This is now considered a legacy method.
+
+## Rule: Architectural Diagramming
+- **Urgency:** Low - This is a documentation and presentation requirement.
+- **Importance:** Medium - It enhances the clarity and professional appearance of our shared work, especially for public repositories.
+- **Notes:** As the architecture of our workspace evolves, the `mermaid.md` file must be updated with new diagrams to reflect the changes. This ensures our documentation is always current.
+
+==============================================================================
+# OUTSTANDING INSIGHTS & WORKFLOW QUEUE
+==============================================================================
+"timestamp","insight","closure"
+"2025-06-29T17:58:24-06:00","The current reliance on my `save_memory` tool to remember to consult `GEMINI_RULES.md` is a potential point of failure. A more robust mechanism should be established to ensure I am re-initialized with these rules at the beginning of every session. This could involve a startup script for the Gemini-CLI that automatically 'teaches' me the rules file upon launch. This would prevent deviations from our agreed protocols if my session memory is ever lost or reset.","2025-07-04T02:34:00-06:00"
+"2025-07-04T02:42:23-06:00","The README.md mentions a plan to network `llama-cpp-python` with Gemini-CLI to use a local Gemma 3 model. This is a significant architectural change that requires implementation.",""
+"2025-07-04T02:42:23-06:00","The README.md mentions the 'Hatband' project, a data structure for managing key-value pairs to provide context to the AI. This needs to be implemented.",""
+"2025-07-04T02:42:23-06:00","The README.md suggests creating a `Table of Contents.md` file to provide a succinct overview of the repository for the AI.",""
+"2025-07-04T02:42:23-06:00","The README.md describes a workflow where a `[date-time-stamp]-Session-Delegated-Topics.csv` file is used to pass topics to a local Gemma 3 model. This workflow needs to be implemented.",""
+"2025-07-04T02:42:23-06:00","The `Gemini-thought-experiment.md` is stalled and needs to be revisited and completed.",""
+
+==============================================================================
+# END OF INITIALIZATION DATA
+==============================================================================
+
+Please confirm that you have received and understood these instructions."
+
+### Model Name (Gemini 1.5 Pro)
+"I have received and understood the Rules of Engagement and the outstanding insights for operating on the yaberechiah system. I will adhere to these protocols."

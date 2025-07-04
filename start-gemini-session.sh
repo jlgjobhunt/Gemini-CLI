@@ -75,4 +75,10 @@ echo "==========================================================================
 echo ""
 
 # --- Launch the Gemini CLI ---
-exec npx @google/gemini-cli
+# The 'script' command is used to capture the terminal session.
+# -q: quiet mode
+# -a: append to the log file
+# -e: exit when the command finishes
+# -c: run the specified command
+# The output is saved to 'terminal-text-output.txt'.
+script -q -a -e -c "systemd-inhibit --what=idle:sleep --who=\"Gemini CLI Session\" --why=\"Running long experiment\" npx @google/gemini-cli" terminal-text-output.txt
