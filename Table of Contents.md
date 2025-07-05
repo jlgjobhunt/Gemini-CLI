@@ -8,6 +8,7 @@ This file provides a succinct overview of the repository for the AI.
 - **README.md**: The main README file for the project.
 - **src/hello.py**: A simple Python script.
 - **src/gemma_inference.py**: A Python script to demonstrate Gemma 3 inference using `llama-cpp-python`.
+- **src/delegate_topics.py**: A Python script to manage delegated topics for local LLMs.
 - **Gemini-thought-experiment.md**: A document that is currently stalled and needs to be revisited.
 - **Gemini-Thought-Experiment-2.md**: The second thought experiment, which successfully tested the `supervisor.sh` script.
 - **mermaid.md**: Contains architectural diagrams.

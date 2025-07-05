@@ -1,3 +1,5 @@
+import csv
+import argparse
 from llama_cpp import Llama
 
 # Path to the Gemma 3 GGUF model
@@ -26,7 +28,45 @@ def run_gemma_inference(prompt: str):
     except Exception as e:
         print(f"An error occurred during model loading or inference: {e}")
 
+def run_gemma_inference_from_csv(csv_file_path: str):
+    """
+    Reads topics from a CSV file and performs Gemma 3 inference for each.
+    """
+    print(f"\nReading topics from: {csv_file_path}")
+    try:
+        with open(csv_file_path, 'r') as csvfile:
+            reader = csv.DictReader(csvfile)
+            for row in reader:
+                topic = row['topic']
+                print(f"\n--- Delegated Topic: {topic} ---")
+                run_gemma_inference(topic)
+    except FileNotFoundError:
+        print(f"Error: CSV file not found at {csv_file_path}")
+    except KeyError:
+        print(f"Error: 'topic' column not found in {csv_file_path}")
+    except Exception as e:
+        print(f"An error occurred while reading CSV or running inference: {e}")
+
 if __name__ == "__main__":
-    # Example usage
-    user_prompt = "Write a short, creative story about a robot who discovers a love for painting."
-    run_gemma_inference(user_prompt)
+    parser = argparse.ArgumentParser(description="Run Gemma 3 inference.")
+    parser.add_argument(
+        "--csv",
+        type=str,
+        help="Path to a CSV file containing topics for inference."
+    )
+    parser.add_argument(
+        "--prompt",
+        type=str,
+        help="A single prompt for inference."
+    )
+
+    args = parser.parse_args()
+
+    if args.csv:
+        run_gemma_inference_from_csv(args.csv)
+    elif args.prompt:
+        run_gemma_inference(args.prompt)
+    else:
+        # Default behavior if no arguments are provided
+        user_prompt = "Write a short, creative story about a robot who discovers a love for painting."
+        run_gemma_inference(user_prompt)
