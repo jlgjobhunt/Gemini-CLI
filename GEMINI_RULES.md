@@ -51,3 +51,8 @@ This document outlines the operational protocols for Gemini models when interact
 - **Urgency:** Low - This is a documentation and presentation requirement.
 - **Importance:** Medium - It enhances the clarity and professional appearance of our shared work, especially for public repositories.
 - **Notes:** As the architecture of our workspace evolves, the `mermaid.md` file must be updated with new diagrams to reflect the changes. This ensures our documentation is always current.
+
+## Rule: Supervisor Script
+- **Urgency:** Medium - This is a utility for ensuring long-running processes persist.
+- **Importance:** High - It provides a mechanism for ensuring that long-polling tasks, such as the Gemini-thought-experiment.md, are not interrupted by network failures.
+- **Notes:** The `supervisor.sh` script will monitor a given command and restart it if it fails or if the network connection is lost. This is critical for maintaining the persistence of long-running tasks.

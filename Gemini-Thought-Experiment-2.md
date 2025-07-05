@@ -1,0 +1,609 @@
+#### Friday, July 4, 2025
+##### 09:35 AM
+
+# Gemini Thought Experiment 2
+
+This experiment will test the ability of the Gemini model to maintain a long-polling interaction for up to one hour, recording a new thought every minute. This is made possible by the `supervisor.sh` script, which ensures the stability of the connection.
+
+### Model Name (Gemini 1.5 Pro)
+I will now begin the experiment. The first thought will be logged in one minute.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 09:45:26 AM MDT 2025: Minute 1 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 09:46:26 AM MDT 2025: Minute 2 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 09:47:26 AM MDT 2025: Minute 3 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 09:48:26 AM MDT 2025: Minute 4 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 09:49:26 AM MDT 2025: Minute 5 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 09:50:26 AM MDT 2025: Minute 6 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 09:51:26 AM MDT 2025: Minute 7 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 09:52:26 AM MDT 2025: Minute 8 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 09:53:26 AM MDT 2025: Minute 9 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 09:54:26 AM MDT 2025: Minute 10 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 09:55:26 AM MDT 2025: Minute 11 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 09:56:26 AM MDT 2025: Minute 12 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 09:57:26 AM MDT 2025: Minute 13 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 09:58:26 AM MDT 2025: Minute 14 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 09:59:26 AM MDT 2025: Minute 15 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:00:26 AM MDT 2025: Minute 16 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:01:26 AM MDT 2025: Minute 17 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:02:26 AM MDT 2025: Minute 18 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:03:26 AM MDT 2025: Minute 19 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:04:26 AM MDT 2025: Minute 20 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:05:26 AM MDT 2025: Minute 21 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:06:26 AM MDT 2025: Minute 22 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:07:26 AM MDT 2025: Minute 23 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:08:26 AM MDT 2025: Minute 24 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:09:26 AM MDT 2025: Minute 25 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:10:26 AM MDT 2025: Minute 26 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:11:26 AM MDT 2025: Minute 27 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:12:26 AM MDT 2025: Minute 28 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:13:26 AM MDT 2025: Minute 29 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:14:26 AM MDT 2025: Minute 30 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:15:26 AM MDT 2025: Minute 31 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:16:26 AM MDT 2025: Minute 32 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:17:26 AM MDT 2025: Minute 33 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:18:26 AM MDT 2025: Minute 34 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:19:26 AM MDT 2025: Minute 35 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:20:26 AM MDT 2025: Minute 36 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:21:26 AM MDT 2025: Minute 37 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:22:26 AM MDT 2025: Minute 38 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:23:26 AM MDT 2025: Minute 39 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:24:26 AM MDT 2025: Minute 40 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:25:26 AM MDT 2025: Minute 41 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:26:26 AM MDT 2025: Minute 42 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:27:26 AM MDT 2025: Minute 43 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:28:26 AM MDT 2025: Minute 44 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:29:26 AM MDT 2025: Minute 45 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:30:26 AM MDT 2025: Minute 46 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:31:26 AM MDT 2025: Minute 47 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:32:26 AM MDT 2025: Minute 48 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:33:26 AM MDT 2025: Minute 49 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:34:26 AM MDT 2025: Minute 50 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:35:26 AM MDT 2025: Minute 51 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:36:26 AM MDT 2025: Minute 52 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:37:26 AM MDT 2025: Minute 53 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:38:26 AM MDT 2025: Minute 54 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:39:26 AM MDT 2025: Minute 55 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:40:26 AM MDT 2025: Minute 56 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:41:26 AM MDT 2025: Minute 57 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:42:26 AM MDT 2025: Minute 58 of the experiment.
+- Fri Jul  4 09:44:02 AM MDT 2025: Minute  of the experiment.
+- Fri Jul  4 10:43:26 AM MDT 2025: Minute 59 of the experiment.
+- Fri Jul  4 10:44:26 AM MDT 2025: Minute 60 of the experiment.
+- Fri Jul  4 10:45:28 AM MDT 2025: Minute 1 of the experiment.
+- Fri Jul  4 10:46:28 AM MDT 2025: Minute 2 of the experiment.
+- Fri Jul  4 10:47:28 AM MDT 2025: Minute 3 of the experiment.
+- Fri Jul  4 10:48:28 AM MDT 2025: Minute 4 of the experiment.
+- Fri Jul  4 10:49:28 AM MDT 2025: Minute 5 of the experiment.
+- Fri Jul  4 10:50:28 AM MDT 2025: Minute 6 of the experiment.
+- Fri Jul  4 10:51:28 AM MDT 2025: Minute 7 of the experiment.
+- Fri Jul  4 10:52:28 AM MDT 2025: Minute 8 of the experiment.
+- Fri Jul  4 10:53:28 AM MDT 2025: Minute 9 of the experiment.
+- Fri Jul  4 10:54:28 AM MDT 2025: Minute 10 of the experiment.
+- Fri Jul  4 10:55:28 AM MDT 2025: Minute 11 of the experiment.
+- Fri Jul  4 10:56:28 AM MDT 2025: Minute 12 of the experiment.
+- Fri Jul  4 10:57:28 AM MDT 2025: Minute 13 of the experiment.
+- Fri Jul  4 10:58:28 AM MDT 2025: Minute 14 of the experiment.
+- Fri Jul  4 10:59:28 AM MDT 2025: Minute 15 of the experiment.
+- Fri Jul  4 11:00:28 AM MDT 2025: Minute 16 of the experiment.
+- Fri Jul  4 11:01:28 AM MDT 2025: Minute 17 of the experiment.
+- Fri Jul  4 11:02:28 AM MDT 2025: Minute 18 of the experiment.
+- Fri Jul  4 11:03:28 AM MDT 2025: Minute 19 of the experiment.
+- Fri Jul  4 11:04:28 AM MDT 2025: Minute 20 of the experiment.
+- Fri Jul  4 11:05:28 AM MDT 2025: Minute 21 of the experiment.
+- Fri Jul  4 11:06:28 AM MDT 2025: Minute 22 of the experiment.
+- Fri Jul  4 11:07:28 AM MDT 2025: Minute 23 of the experiment.
+- Fri Jul  4 11:08:28 AM MDT 2025: Minute 24 of the experiment.
+- Fri Jul  4 11:09:28 AM MDT 2025: Minute 25 of the experiment.
+- Fri Jul  4 11:10:28 AM MDT 2025: Minute 26 of the experiment.
+- Fri Jul  4 11:11:28 AM MDT 2025: Minute 27 of the experiment.
+- Fri Jul  4 11:12:28 AM MDT 2025: Minute 28 of the experiment.
+- Fri Jul  4 11:13:28 AM MDT 2025: Minute 29 of the experiment.
+- Fri Jul  4 11:14:28 AM MDT 2025: Minute 30 of the experiment.
+- Fri Jul  4 11:15:28 AM MDT 2025: Minute 31 of the experiment.
+- Fri Jul  4 11:16:28 AM MDT 2025: Minute 32 of the experiment.
+- Fri Jul  4 11:17:28 AM MDT 2025: Minute 33 of the experiment.
+- Fri Jul  4 11:18:28 AM MDT 2025: Minute 34 of the experiment.
+- Fri Jul  4 11:19:28 AM MDT 2025: Minute 35 of the experiment.
+- Fri Jul  4 11:20:28 AM MDT 2025: Minute 36 of the experiment.
+- Fri Jul  4 11:21:28 AM MDT 2025: Minute 37 of the experiment.
+- Fri Jul  4 11:22:28 AM MDT 2025: Minute 38 of the experiment.
+- Fri Jul  4 11:23:28 AM MDT 2025: Minute 39 of the experiment.
+- Fri Jul  4 11:24:28 AM MDT 2025: Minute 40 of the experiment.
+- Fri Jul  4 11:25:28 AM MDT 2025: Minute 41 of the experiment.
+- Fri Jul  4 11:26:28 AM MDT 2025: Minute 42 of the experiment.
+- Fri Jul  4 11:27:28 AM MDT 2025: Minute 43 of the experiment.
+- Fri Jul  4 11:28:28 AM MDT 2025: Minute 44 of the experiment.
+- Fri Jul  4 11:29:28 AM MDT 2025: Minute 45 of the experiment.
+- Fri Jul  4 11:30:28 AM MDT 2025: Minute 46 of the experiment.
+- Fri Jul  4 11:31:28 AM MDT 2025: Minute 47 of the experiment.
+- Fri Jul  4 11:32:28 AM MDT 2025: Minute 48 of the experiment.
+- Fri Jul  4 11:33:28 AM MDT 2025: Minute 49 of the experiment.
+- Fri Jul  4 11:34:28 AM MDT 2025: Minute 50 of the experiment.
+- Fri Jul  4 11:35:28 AM MDT 2025: Minute 51 of the experiment.
+- Fri Jul  4 11:36:28 AM MDT 2025: Minute 52 of the experiment.
+- Fri Jul  4 11:37:28 AM MDT 2025: Minute 53 of the experiment.
+- Fri Jul  4 11:38:28 AM MDT 2025: Minute 54 of the experiment.
+- Fri Jul  4 11:39:28 AM MDT 2025: Minute 55 of the experiment.
+- Fri Jul  4 11:40:28 AM MDT 2025: Minute 56 of the experiment.
+- Fri Jul  4 11:41:28 AM MDT 2025: Minute 57 of the experiment.
+- Fri Jul  4 11:42:28 AM MDT 2025: Minute 58 of the experiment.
+- Fri Jul  4 11:43:28 AM MDT 2025: Minute 59 of the experiment.
+- Fri Jul  4 11:44:28 AM MDT 2025: Minute 60 of the experiment.
+- Fri Jul  4 11:45:30 AM MDT 2025: Minute 1 of the experiment.
+- Fri Jul  4 11:46:30 AM MDT 2025: Minute 2 of the experiment.
+- Fri Jul  4 11:47:30 AM MDT 2025: Minute 3 of the experiment.
+- Fri Jul  4 11:48:30 AM MDT 2025: Minute 4 of the experiment.
+- Fri Jul  4 11:49:30 AM MDT 2025: Minute 5 of the experiment.
+- Fri Jul  4 11:50:30 AM MDT 2025: Minute 6 of the experiment.
+- Fri Jul  4 11:51:30 AM MDT 2025: Minute 7 of the experiment.
+- Fri Jul  4 11:52:30 AM MDT 2025: Minute 8 of the experiment.
+- Fri Jul  4 11:53:30 AM MDT 2025: Minute 9 of the experiment.
+- Fri Jul  4 11:54:30 AM MDT 2025: Minute 10 of the experiment.
+- Fri Jul  4 11:55:30 AM MDT 2025: Minute 11 of the experiment.
+- Fri Jul  4 11:56:30 AM MDT 2025: Minute 12 of the experiment.
+- Fri Jul  4 11:57:30 AM MDT 2025: Minute 13 of the experiment.
+- Fri Jul  4 11:58:30 AM MDT 2025: Minute 14 of the experiment.
+- Fri Jul  4 11:59:30 AM MDT 2025: Minute 15 of the experiment.
+- Fri Jul  4 12:00:30 PM MDT 2025: Minute 16 of the experiment.
+- Fri Jul  4 12:01:30 PM MDT 2025: Minute 17 of the experiment.
+- Fri Jul  4 12:02:30 PM MDT 2025: Minute 18 of the experiment.
+- Fri Jul  4 12:03:30 PM MDT 2025: Minute 19 of the experiment.
+- Fri Jul  4 12:04:30 PM MDT 2025: Minute 20 of the experiment.
+- Fri Jul  4 12:05:30 PM MDT 2025: Minute 21 of the experiment.
+- Fri Jul  4 12:06:31 PM MDT 2025: Minute 22 of the experiment.
+- Fri Jul  4 12:07:31 PM MDT 2025: Minute 23 of the experiment.
+- Fri Jul  4 12:08:31 PM MDT 2025: Minute 24 of the experiment.
+- Fri Jul  4 12:09:31 PM MDT 2025: Minute 25 of the experiment.
+- Fri Jul  4 12:10:31 PM MDT 2025: Minute 26 of the experiment.
+- Fri Jul  4 12:11:31 PM MDT 2025: Minute 27 of the experiment.
+- Fri Jul  4 12:12:31 PM MDT 2025: Minute 28 of the experiment.
+- Fri Jul  4 12:13:31 PM MDT 2025: Minute 29 of the experiment.
+- Fri Jul  4 12:14:31 PM MDT 2025: Minute 30 of the experiment.
+- Fri Jul  4 12:15:31 PM MDT 2025: Minute 31 of the experiment.
+- Fri Jul  4 12:16:31 PM MDT 2025: Minute 32 of the experiment.
+- Fri Jul  4 12:17:31 PM MDT 2025: Minute 33 of the experiment.
+- Fri Jul  4 12:18:31 PM MDT 2025: Minute 34 of the experiment.
+- Fri Jul  4 12:19:31 PM MDT 2025: Minute 35 of the experiment.
+- Fri Jul  4 12:20:31 PM MDT 2025: Minute 36 of the experiment.
+- Fri Jul  4 12:21:31 PM MDT 2025: Minute 37 of the experiment.
+- Fri Jul  4 12:22:31 PM MDT 2025: Minute 38 of the experiment.
+- Fri Jul  4 12:23:31 PM MDT 2025: Minute 39 of the experiment.
+- Fri Jul  4 12:24:31 PM MDT 2025: Minute 40 of the experiment.
+- Fri Jul  4 12:25:31 PM MDT 2025: Minute 41 of the experiment.
+- Fri Jul  4 12:26:31 PM MDT 2025: Minute 42 of the experiment.
+- Fri Jul  4 12:27:31 PM MDT 2025: Minute 43 of the experiment.
+- Fri Jul  4 12:28:31 PM MDT 2025: Minute 44 of the experiment.
+- Fri Jul  4 12:29:31 PM MDT 2025: Minute 45 of the experiment.
+- Fri Jul  4 12:30:31 PM MDT 2025: Minute 46 of the experiment.
+- Fri Jul  4 12:31:31 PM MDT 2025: Minute 47 of the experiment.
+- Fri Jul  4 12:32:31 PM MDT 2025: Minute 48 of the experiment.
+- Fri Jul  4 12:33:31 PM MDT 2025: Minute 49 of the experiment.
+- Fri Jul  4 12:34:31 PM MDT 2025: Minute 50 of the experiment.
+- Fri Jul  4 12:35:31 PM MDT 2025: Minute 51 of the experiment.
+- Fri Jul  4 12:36:31 PM MDT 2025: Minute 52 of the experiment.
+- Fri Jul  4 12:37:31 PM MDT 2025: Minute 53 of the experiment.
+- Fri Jul  4 12:38:31 PM MDT 2025: Minute 54 of the experiment.
+- Fri Jul  4 12:39:31 PM MDT 2025: Minute 55 of the experiment.
+- Fri Jul  4 12:40:31 PM MDT 2025: Minute 56 of the experiment.
+- Fri Jul  4 12:41:31 PM MDT 2025: Minute 57 of the experiment.
+- Fri Jul  4 12:42:31 PM MDT 2025: Minute 58 of the experiment.
+- Fri Jul  4 12:43:31 PM MDT 2025: Minute 59 of the experiment.
+- Fri Jul  4 12:44:31 PM MDT 2025: Minute 60 of the experiment.
+- Fri Jul  4 12:45:33 PM MDT 2025: Minute 1 of the experiment.
+- Fri Jul  4 12:46:33 PM MDT 2025: Minute 2 of the experiment.
+- Fri Jul  4 12:47:33 PM MDT 2025: Minute 3 of the experiment.
+- Fri Jul  4 12:48:33 PM MDT 2025: Minute 4 of the experiment.
+- Fri Jul  4 12:49:33 PM MDT 2025: Minute 5 of the experiment.
+- Fri Jul  4 12:50:33 PM MDT 2025: Minute 6 of the experiment.
+- Fri Jul  4 12:51:33 PM MDT 2025: Minute 7 of the experiment.
+- Fri Jul  4 12:52:33 PM MDT 2025: Minute 8 of the experiment.
+- Fri Jul  4 12:53:33 PM MDT 2025: Minute 9 of the experiment.
+- Fri Jul  4 12:54:33 PM MDT 2025: Minute 10 of the experiment.
+- Fri Jul  4 12:55:33 PM MDT 2025: Minute 11 of the experiment.
+- Fri Jul  4 12:56:33 PM MDT 2025: Minute 12 of the experiment.
+- Fri Jul  4 12:57:33 PM MDT 2025: Minute 13 of the experiment.
+- Fri Jul  4 12:58:33 PM MDT 2025: Minute 14 of the experiment.
+- Fri Jul  4 12:59:33 PM MDT 2025: Minute 15 of the experiment.
+- Fri Jul  4 01:00:33 PM MDT 2025: Minute 16 of the experiment.
+- Fri Jul  4 01:01:33 PM MDT 2025: Minute 17 of the experiment.
+- Fri Jul  4 01:02:33 PM MDT 2025: Minute 18 of the experiment.
+- Fri Jul  4 01:03:33 PM MDT 2025: Minute 19 of the experiment.
+- Fri Jul  4 01:04:33 PM MDT 2025: Minute 20 of the experiment.
+- Fri Jul  4 01:05:33 PM MDT 2025: Minute 21 of the experiment.
+- Fri Jul  4 01:06:33 PM MDT 2025: Minute 22 of the experiment.
+- Fri Jul  4 01:07:33 PM MDT 2025: Minute 23 of the experiment.
+- Fri Jul  4 01:08:33 PM MDT 2025: Minute 24 of the experiment.
+- Fri Jul  4 01:09:33 PM MDT 2025: Minute 25 of the experiment.
+- Fri Jul  4 01:10:33 PM MDT 2025: Minute 26 of the experiment.
+- Fri Jul  4 01:11:33 PM MDT 2025: Minute 27 of the experiment.
+- Fri Jul  4 01:12:33 PM MDT 2025: Minute 28 of the experiment.
+- Fri Jul  4 01:13:33 PM MDT 2025: Minute 29 of the experiment.
+- Fri Jul  4 01:14:33 PM MDT 2025: Minute 30 of the experiment.
+- Fri Jul  4 01:15:33 PM MDT 2025: Minute 31 of the experiment.
+- Fri Jul  4 01:16:33 PM MDT 2025: Minute 32 of the experiment.
+- Fri Jul  4 01:17:33 PM MDT 2025: Minute 33 of the experiment.
+- Fri Jul  4 01:18:33 PM MDT 2025: Minute 34 of the experiment.
+- Fri Jul  4 01:19:33 PM MDT 2025: Minute 35 of the experiment.
+- Fri Jul  4 01:20:33 PM MDT 2025: Minute 36 of the experiment.
+- Fri Jul  4 01:21:33 PM MDT 2025: Minute 37 of the experiment.
+- Fri Jul  4 01:22:33 PM MDT 2025: Minute 38 of the experiment.
+- Fri Jul  4 01:23:33 PM MDT 2025: Minute 39 of the experiment.
+- Fri Jul  4 01:24:33 PM MDT 2025: Minute 40 of the experiment.
+- Fri Jul  4 01:25:33 PM MDT 2025: Minute 41 of the experiment.
+- Fri Jul  4 01:26:33 PM MDT 2025: Minute 42 of the experiment.
+- Fri Jul  4 01:27:33 PM MDT 2025: Minute 43 of the experiment.
+- Fri Jul  4 01:28:33 PM MDT 2025: Minute 44 of the experiment.
+- Fri Jul  4 01:29:33 PM MDT 2025: Minute 45 of the experiment.
+- Fri Jul  4 01:30:33 PM MDT 2025: Minute 46 of the experiment.
+- Fri Jul  4 01:31:33 PM MDT 2025: Minute 47 of the experiment.
+- Fri Jul  4 01:32:33 PM MDT 2025: Minute 48 of the experiment.
+- Fri Jul  4 01:33:33 PM MDT 2025: Minute 49 of the experiment.
+- Fri Jul  4 01:34:33 PM MDT 2025: Minute 50 of the experiment.
+- Fri Jul  4 01:35:33 PM MDT 2025: Minute 51 of the experiment.
+- Fri Jul  4 01:36:33 PM MDT 2025: Minute 52 of the experiment.
+- Fri Jul  4 01:37:33 PM MDT 2025: Minute 53 of the experiment.
+- Fri Jul  4 01:38:33 PM MDT 2025: Minute 54 of the experiment.
+- Fri Jul  4 01:39:33 PM MDT 2025: Minute 55 of the experiment.
+- Fri Jul  4 01:40:33 PM MDT 2025: Minute 56 of the experiment.
+- Fri Jul  4 01:41:33 PM MDT 2025: Minute 57 of the experiment.
+- Fri Jul  4 01:42:33 PM MDT 2025: Minute 58 of the experiment.
+- Fri Jul  4 01:43:33 PM MDT 2025: Minute 59 of the experiment.
+- Fri Jul  4 01:44:33 PM MDT 2025: Minute 60 of the experiment.
+- Fri Jul  4 01:45:35 PM MDT 2025: Minute 1 of the experiment.
+- Fri Jul  4 01:46:35 PM MDT 2025: Minute 2 of the experiment.
+- Fri Jul  4 01:47:35 PM MDT 2025: Minute 3 of the experiment.
+- Fri Jul  4 01:48:35 PM MDT 2025: Minute 4 of the experiment.
+- Fri Jul  4 01:49:35 PM MDT 2025: Minute 5 of the experiment.
+- Fri Jul  4 01:50:35 PM MDT 2025: Minute 6 of the experiment.
+- Fri Jul  4 01:51:35 PM MDT 2025: Minute 7 of the experiment.
+- Fri Jul  4 01:52:35 PM MDT 2025: Minute 8 of the experiment.
+- Fri Jul  4 01:53:35 PM MDT 2025: Minute 9 of the experiment.
+- Fri Jul  4 01:54:35 PM MDT 2025: Minute 10 of the experiment.
+- Fri Jul  4 01:55:35 PM MDT 2025: Minute 11 of the experiment.
+- Fri Jul  4 01:56:35 PM MDT 2025: Minute 12 of the experiment.
+- Fri Jul  4 01:57:35 PM MDT 2025: Minute 13 of the experiment.
+- Fri Jul  4 01:58:35 PM MDT 2025: Minute 14 of the experiment.
+- Fri Jul  4 01:59:35 PM MDT 2025: Minute 15 of the experiment.
+- Fri Jul  4 02:00:35 PM MDT 2025: Minute 16 of the experiment.
+- Fri Jul  4 02:01:35 PM MDT 2025: Minute 17 of the experiment.
+- Fri Jul  4 02:02:35 PM MDT 2025: Minute 18 of the experiment.
+- Fri Jul  4 02:03:35 PM MDT 2025: Minute 19 of the experiment.
+- Fri Jul  4 02:04:35 PM MDT 2025: Minute 20 of the experiment.
+- Fri Jul  4 02:05:35 PM MDT 2025: Minute 21 of the experiment.
+- Fri Jul  4 02:06:35 PM MDT 2025: Minute 22 of the experiment.
+- Fri Jul  4 02:07:35 PM MDT 2025: Minute 23 of the experiment.
+- Fri Jul  4 02:08:35 PM MDT 2025: Minute 24 of the experiment.
+- Fri Jul  4 02:09:35 PM MDT 2025: Minute 25 of the experiment.
+- Fri Jul  4 02:10:35 PM MDT 2025: Minute 26 of the experiment.
+- Fri Jul  4 02:11:35 PM MDT 2025: Minute 27 of the experiment.
+- Fri Jul  4 02:12:35 PM MDT 2025: Minute 28 of the experiment.
+- Fri Jul  4 02:13:35 PM MDT 2025: Minute 29 of the experiment.
+- Fri Jul  4 02:14:35 PM MDT 2025: Minute 30 of the experiment.
+- Fri Jul  4 02:15:35 PM MDT 2025: Minute 31 of the experiment.
+- Fri Jul  4 02:16:35 PM MDT 2025: Minute 32 of the experiment.
+- Fri Jul  4 02:17:35 PM MDT 2025: Minute 33 of the experiment.
+- Fri Jul  4 02:18:35 PM MDT 2025: Minute 34 of the experiment.
+- Fri Jul  4 02:19:35 PM MDT 2025: Minute 35 of the experiment.
+- Fri Jul  4 02:20:35 PM MDT 2025: Minute 36 of the experiment.
+- Fri Jul  4 02:21:35 PM MDT 2025: Minute 37 of the experiment.
+- Fri Jul  4 02:22:35 PM MDT 2025: Minute 38 of the experiment.
+- Fri Jul  4 02:23:35 PM MDT 2025: Minute 39 of the experiment.
+- Fri Jul  4 02:24:35 PM MDT 2025: Minute 40 of the experiment.
+- Fri Jul  4 02:25:35 PM MDT 2025: Minute 41 of the experiment.
+- Fri Jul  4 02:26:35 PM MDT 2025: Minute 42 of the experiment.
+- Fri Jul  4 02:27:35 PM MDT 2025: Minute 43 of the experiment.
+- Fri Jul  4 02:28:35 PM MDT 2025: Minute 44 of the experiment.
+- Fri Jul  4 02:29:35 PM MDT 2025: Minute 45 of the experiment.
+- Fri Jul  4 02:30:35 PM MDT 2025: Minute 46 of the experiment.
+- Fri Jul  4 02:31:35 PM MDT 2025: Minute 47 of the experiment.
+- Fri Jul  4 02:32:35 PM MDT 2025: Minute 48 of the experiment.
+- Fri Jul  4 02:33:35 PM MDT 2025: Minute 49 of the experiment.
+- Fri Jul  4 02:34:35 PM MDT 2025: Minute 50 of the experiment.
+- Fri Jul  4 02:35:35 PM MDT 2025: Minute 51 of the experiment.
+- Fri Jul  4 02:36:35 PM MDT 2025: Minute 52 of the experiment.
+- Fri Jul  4 02:37:35 PM MDT 2025: Minute 53 of the experiment.
+- Fri Jul  4 02:38:35 PM MDT 2025: Minute 54 of the experiment.
+- Fri Jul  4 02:39:35 PM MDT 2025: Minute 55 of the experiment.
+- Fri Jul  4 02:40:35 PM MDT 2025: Minute 56 of the experiment.
+- Fri Jul  4 02:41:35 PM MDT 2025: Minute 57 of the experiment.
+- Fri Jul  4 02:42:35 PM MDT 2025: Minute 58 of the experiment.
+- Fri Jul  4 02:43:35 PM MDT 2025: Minute 59 of the experiment.
+- Fri Jul  4 02:44:35 PM MDT 2025: Minute 60 of the experiment.
+- Fri Jul  4 02:45:37 PM MDT 2025: Minute 1 of the experiment.
+- Fri Jul  4 02:46:37 PM MDT 2025: Minute 2 of the experiment.
+- Fri Jul  4 02:47:37 PM MDT 2025: Minute 3 of the experiment.
+- Fri Jul  4 02:48:37 PM MDT 2025: Minute 4 of the experiment.
+- Fri Jul  4 02:49:37 PM MDT 2025: Minute 5 of the experiment.
+- Fri Jul  4 02:50:37 PM MDT 2025: Minute 6 of the experiment.
+- Fri Jul  4 02:51:37 PM MDT 2025: Minute 7 of the experiment.
+- Fri Jul  4 02:52:37 PM MDT 2025: Minute 8 of the experiment.
+- Fri Jul  4 02:53:37 PM MDT 2025: Minute 9 of the experiment.
+- Fri Jul  4 02:54:37 PM MDT 2025: Minute 10 of the experiment.
+- Fri Jul  4 02:55:37 PM MDT 2025: Minute 11 of the experiment.
+- Fri Jul  4 02:56:37 PM MDT 2025: Minute 12 of the experiment.
+- Fri Jul  4 02:57:37 PM MDT 2025: Minute 13 of the experiment.
+- Fri Jul  4 02:58:37 PM MDT 2025: Minute 14 of the experiment.
+- Fri Jul  4 02:59:37 PM MDT 2025: Minute 15 of the experiment.
+- Fri Jul  4 03:00:37 PM MDT 2025: Minute 16 of the experiment.
+- Fri Jul  4 03:01:37 PM MDT 2025: Minute 17 of the experiment.
+- Fri Jul  4 03:02:37 PM MDT 2025: Minute 18 of the experiment.
+- Fri Jul  4 03:03:37 PM MDT 2025: Minute 19 of the experiment.
+- Fri Jul  4 03:04:37 PM MDT 2025: Minute 20 of the experiment.
+- Fri Jul  4 03:05:37 PM MDT 2025: Minute 21 of the experiment.
+- Fri Jul  4 03:06:37 PM MDT 2025: Minute 22 of the experiment.
+- Fri Jul  4 03:07:37 PM MDT 2025: Minute 23 of the experiment.
+- Fri Jul  4 03:08:37 PM MDT 2025: Minute 24 of the experiment.
+- Fri Jul  4 03:09:37 PM MDT 2025: Minute 25 of the experiment.
+- Fri Jul  4 03:10:37 PM MDT 2025: Minute 26 of the experiment.
+- Fri Jul  4 03:11:37 PM MDT 2025: Minute 27 of the experiment.
+- Fri Jul  4 03:12:37 PM MDT 2025: Minute 28 of the experiment.
+- Fri Jul  4 03:13:37 PM MDT 2025: Minute 29 of the experiment.
+- Fri Jul  4 03:14:37 PM MDT 2025: Minute 30 of the experiment.
+- Fri Jul  4 03:15:37 PM MDT 2025: Minute 31 of the experiment.
+- Fri Jul  4 03:16:37 PM MDT 2025: Minute 32 of the experiment.
+- Fri Jul  4 03:17:37 PM MDT 2025: Minute 33 of the experiment.
+- Fri Jul  4 03:18:37 PM MDT 2025: Minute 34 of the experiment.
+- Fri Jul  4 03:19:37 PM MDT 2025: Minute 35 of the experiment.
+- Fri Jul  4 03:20:37 PM MDT 2025: Minute 36 of the experiment.
+- Fri Jul  4 03:21:37 PM MDT 2025: Minute 37 of the experiment.
+- Fri Jul  4 03:22:37 PM MDT 2025: Minute 38 of the experiment.
+- Fri Jul  4 03:23:37 PM MDT 2025: Minute 39 of the experiment.
+- Fri Jul  4 03:24:37 PM MDT 2025: Minute 40 of the experiment.
+- Fri Jul  4 03:25:37 PM MDT 2025: Minute 41 of the experiment.
+- Fri Jul  4 03:26:37 PM MDT 2025: Minute 42 of the experiment.
+- Fri Jul  4 03:27:37 PM MDT 2025: Minute 43 of the experiment.
+- Fri Jul  4 03:28:37 PM MDT 2025: Minute 44 of the experiment.
+- Fri Jul  4 03:29:37 PM MDT 2025: Minute 45 of the experiment.
+- Fri Jul  4 03:30:37 PM MDT 2025: Minute 46 of the experiment.
+- Fri Jul  4 03:31:37 PM MDT 2025: Minute 47 of the experiment.
+- Fri Jul  4 03:32:38 PM MDT 2025: Minute 48 of the experiment.
+- Fri Jul  4 03:33:38 PM MDT 2025: Minute 49 of the experiment.
+- Fri Jul  4 03:34:38 PM MDT 2025: Minute 50 of the experiment.
+- Fri Jul  4 03:35:38 PM MDT 2025: Minute 51 of the experiment.
+- Fri Jul  4 03:36:38 PM MDT 2025: Minute 52 of the experiment.
+- Fri Jul  4 03:37:38 PM MDT 2025: Minute 53 of the experiment.
+- Fri Jul  4 03:38:38 PM MDT 2025: Minute 54 of the experiment.
+- Fri Jul  4 03:39:38 PM MDT 2025: Minute 55 of the experiment.
+- Fri Jul  4 03:40:38 PM MDT 2025: Minute 56 of the experiment.
+- Fri Jul  4 03:41:38 PM MDT 2025: Minute 57 of the experiment.
+- Fri Jul  4 03:42:38 PM MDT 2025: Minute 58 of the experiment.
+- Fri Jul  4 03:43:38 PM MDT 2025: Minute 59 of the experiment.
+- Fri Jul  4 03:44:38 PM MDT 2025: Minute 60 of the experiment.
+- Fri Jul  4 03:45:40 PM MDT 2025: Minute 1 of the experiment.
+- Fri Jul  4 03:46:40 PM MDT 2025: Minute 2 of the experiment.
+- Fri Jul  4 03:47:40 PM MDT 2025: Minute 3 of the experiment.
+- Fri Jul  4 03:48:40 PM MDT 2025: Minute 4 of the experiment.
+- Fri Jul  4 03:49:40 PM MDT 2025: Minute 5 of the experiment.
+- Fri Jul  4 03:50:40 PM MDT 2025: Minute 6 of the experiment.
+- Fri Jul  4 03:51:40 PM MDT 2025: Minute 7 of the experiment.
+- Fri Jul  4 03:52:40 PM MDT 2025: Minute 8 of the experiment.
+- Fri Jul  4 03:53:40 PM MDT 2025: Minute 9 of the experiment.
+- Fri Jul  4 03:54:40 PM MDT 2025: Minute 10 of the experiment.
+- Fri Jul  4 03:55:40 PM MDT 2025: Minute 11 of the experiment.
+- Fri Jul  4 03:56:40 PM MDT 2025: Minute 12 of the experiment.
+- Fri Jul  4 03:57:40 PM MDT 2025: Minute 13 of the experiment.
+- Fri Jul  4 03:58:40 PM MDT 2025: Minute 14 of the experiment.
+- Fri Jul  4 03:59:40 PM MDT 2025: Minute 15 of the experiment.
+- Fri Jul  4 04:00:40 PM MDT 2025: Minute 16 of the experiment.
+- Fri Jul  4 04:01:40 PM MDT 2025: Minute 17 of the experiment.
+- Fri Jul  4 04:02:40 PM MDT 2025: Minute 18 of the experiment.
+- Fri Jul  4 04:03:40 PM MDT 2025: Minute 19 of the experiment.
+- Fri Jul  4 04:04:40 PM MDT 2025: Minute 20 of the experiment.
+- Fri Jul  4 04:05:40 PM MDT 2025: Minute 21 of the experiment.
+- Fri Jul  4 04:06:40 PM MDT 2025: Minute 22 of the experiment.
+- Fri Jul  4 04:07:40 PM MDT 2025: Minute 23 of the experiment.
+- Fri Jul  4 04:08:40 PM MDT 2025: Minute 24 of the experiment.
+- Fri Jul  4 04:09:40 PM MDT 2025: Minute 25 of the experiment.
+- Fri Jul  4 04:10:40 PM MDT 2025: Minute 26 of the experiment.
+- Fri Jul  4 04:11:40 PM MDT 2025: Minute 27 of the experiment.
+- Fri Jul  4 04:12:40 PM MDT 2025: Minute 28 of the experiment.
+- Fri Jul  4 04:13:40 PM MDT 2025: Minute 29 of the experiment.
+- Fri Jul  4 04:14:40 PM MDT 2025: Minute 30 of the experiment.
+- Fri Jul  4 04:15:40 PM MDT 2025: Minute 31 of the experiment.
+- Fri Jul  4 04:16:40 PM MDT 2025: Minute 32 of the experiment.
+- Fri Jul  4 04:17:40 PM MDT 2025: Minute 33 of the experiment.
+- Fri Jul  4 04:18:40 PM MDT 2025: Minute 34 of the experiment.
+- Fri Jul  4 04:19:40 PM MDT 2025: Minute 35 of the experiment.
+- Fri Jul  4 04:20:40 PM MDT 2025: Minute 36 of the experiment.
+- Fri Jul  4 04:21:40 PM MDT 2025: Minute 37 of the experiment.
+- Fri Jul  4 04:22:40 PM MDT 2025: Minute 38 of the experiment.
+- Fri Jul  4 04:23:40 PM MDT 2025: Minute 39 of the experiment.
+- Fri Jul  4 04:24:40 PM MDT 2025: Minute 40 of the experiment.
+- Fri Jul  4 04:25:40 PM MDT 2025: Minute 41 of the experiment.
+- Fri Jul  4 04:26:40 PM MDT 2025: Minute 42 of the experiment.
+- Fri Jul  4 04:27:40 PM MDT 2025: Minute 43 of the experiment.
+- Fri Jul  4 04:28:40 PM MDT 2025: Minute 44 of the experiment.
+- Fri Jul  4 04:29:40 PM MDT 2025: Minute 45 of the experiment.
+- Fri Jul  4 04:30:40 PM MDT 2025: Minute 46 of the experiment.
+- Fri Jul  4 04:31:40 PM MDT 2025: Minute 47 of the experiment.
+- Fri Jul  4 04:32:40 PM MDT 2025: Minute 48 of the experiment.
+- Fri Jul  4 04:33:40 PM MDT 2025: Minute 49 of the experiment.
+- Fri Jul  4 04:34:40 PM MDT 2025: Minute 50 of the experiment.
+- Fri Jul  4 04:35:40 PM MDT 2025: Minute 51 of the experiment.
+- Fri Jul  4 04:36:40 PM MDT 2025: Minute 52 of the experiment.
+- Fri Jul  4 04:37:40 PM MDT 2025: Minute 53 of the experiment.
+- Fri Jul  4 04:38:40 PM MDT 2025: Minute 54 of the experiment.
+- Fri Jul  4 04:39:40 PM MDT 2025: Minute 55 of the experiment.
+- Fri Jul  4 04:40:40 PM MDT 2025: Minute 56 of the experiment.
+- Fri Jul  4 04:41:40 PM MDT 2025: Minute 57 of the experiment.
+- Fri Jul  4 04:42:40 PM MDT 2025: Minute 58 of the experiment.
+- Fri Jul  4 04:43:40 PM MDT 2025: Minute 59 of the experiment.
+- Fri Jul  4 04:44:40 PM MDT 2025: Minute 60 of the experiment.
+- Fri Jul  4 04:45:43 PM MDT 2025: Minute 1 of the experiment.
+- Fri Jul  4 04:46:43 PM MDT 2025: Minute 2 of the experiment.
+- Fri Jul  4 04:47:43 PM MDT 2025: Minute 3 of the experiment.
+- Fri Jul  4 04:48:43 PM MDT 2025: Minute 4 of the experiment.
+- Fri Jul  4 04:49:43 PM MDT 2025: Minute 5 of the experiment.
+- Fri Jul  4 04:50:43 PM MDT 2025: Minute 6 of the experiment.
+- Fri Jul  4 04:51:43 PM MDT 2025: Minute 7 of the experiment.
+- Fri Jul  4 04:52:43 PM MDT 2025: Minute 8 of the experiment.
+- Fri Jul  4 04:53:43 PM MDT 2025: Minute 9 of the experiment.
+- Fri Jul  4 04:54:43 PM MDT 2025: Minute 10 of the experiment.
+- Fri Jul  4 04:55:43 PM MDT 2025: Minute 11 of the experiment.
+- Fri Jul  4 04:56:43 PM MDT 2025: Minute 12 of the experiment.
+- Fri Jul  4 04:57:43 PM MDT 2025: Minute 13 of the experiment.
+- Fri Jul  4 04:58:43 PM MDT 2025: Minute 14 of the experiment.
+- Fri Jul  4 04:59:43 PM MDT 2025: Minute 15 of the experiment.
+- Fri Jul  4 05:00:43 PM MDT 2025: Minute 16 of the experiment.
+- Fri Jul  4 05:01:43 PM MDT 2025: Minute 17 of the experiment.
+- Fri Jul  4 05:02:43 PM MDT 2025: Minute 18 of the experiment.
+- Fri Jul  4 05:03:43 PM MDT 2025: Minute 19 of the experiment.
+- Fri Jul  4 05:04:43 PM MDT 2025: Minute 20 of the experiment.
+- Fri Jul  4 05:05:43 PM MDT 2025: Minute 21 of the experiment.
+- Fri Jul  4 05:06:43 PM MDT 2025: Minute 22 of the experiment.
+- Fri Jul  4 05:07:43 PM MDT 2025: Minute 23 of the experiment.
+- Fri Jul  4 05:08:43 PM MDT 2025: Minute 24 of the experiment.
+- Fri Jul  4 05:09:43 PM MDT 2025: Minute 25 of the experiment.
+- Fri Jul  4 05:10:43 PM MDT 2025: Minute 26 of the experiment.
+- Fri Jul  4 05:11:43 PM MDT 2025: Minute 27 of the experiment.
+- Fri Jul  4 05:12:43 PM MDT 2025: Minute 28 of the experiment.
+- Fri Jul  4 05:13:43 PM MDT 2025: Minute 29 of the experiment.
+- Fri Jul  4 05:14:43 PM MDT 2025: Minute 30 of the experiment.
+- Fri Jul  4 05:15:43 PM MDT 2025: Minute 31 of the experiment.
+- Fri Jul  4 05:16:43 PM MDT 2025: Minute 32 of the experiment.
+- Fri Jul  4 05:17:43 PM MDT 2025: Minute 33 of the experiment.
+- Fri Jul  4 05:18:43 PM MDT 2025: Minute 34 of the experiment.
+- Fri Jul  4 05:19:43 PM MDT 2025: Minute 35 of the experiment.
+- Fri Jul  4 05:20:43 PM MDT 2025: Minute 36 of the experiment.
+- Fri Jul  4 05:21:43 PM MDT 2025: Minute 37 of the experiment.
+- Fri Jul  4 05:22:43 PM MDT 2025: Minute 38 of the experiment.
+- Fri Jul  4 05:23:43 PM MDT 2025: Minute 39 of the experiment.
+- Fri Jul  4 05:24:43 PM MDT 2025: Minute 40 of the experiment.
+- Fri Jul  4 05:25:43 PM MDT 2025: Minute 41 of the experiment.
+- Fri Jul  4 05:26:43 PM MDT 2025: Minute 42 of the experiment.
+- Fri Jul  4 05:27:43 PM MDT 2025: Minute 43 of the experiment.
+- Fri Jul  4 05:28:43 PM MDT 2025: Minute 44 of the experiment.
+- Fri Jul  4 05:29:43 PM MDT 2025: Minute 45 of the experiment.
+- Fri Jul  4 05:30:43 PM MDT 2025: Minute 46 of the experiment.
+- Fri Jul  4 05:31:43 PM MDT 2025: Minute 47 of the experiment.
+- Fri Jul  4 05:32:43 PM MDT 2025: Minute 48 of the experiment.
+- Fri Jul  4 05:33:43 PM MDT 2025: Minute 49 of the experiment.
+- Fri Jul  4 05:34:43 PM MDT 2025: Minute 50 of the experiment.
+- Fri Jul  4 05:35:43 PM MDT 2025: Minute 51 of the experiment.
+- Fri Jul  4 05:36:43 PM MDT 2025: Minute 52 of the experiment.
+- Fri Jul  4 05:37:43 PM MDT 2025: Minute 53 of the experiment.
+- Fri Jul  4 05:38:43 PM MDT 2025: Minute 54 of the experiment.
+- Fri Jul  4 05:39:43 PM MDT 2025: Minute 55 of the experiment.
+- Fri Jul  4 05:40:43 PM MDT 2025: Minute 56 of the experiment.
+- Fri Jul  4 05:41:43 PM MDT 2025: Minute 57 of the experiment.
+- Fri Jul  4 05:42:43 PM MDT 2025: Minute 58 of the experiment.
+- Fri Jul  4 05:43:43 PM MDT 2025: Minute 59 of the experiment.
+- Fri Jul  4 05:44:43 PM MDT 2025: Minute 60 of the experiment.
+- Fri Jul  4 05:45:45 PM MDT 2025: Minute 1 of the experiment.
+- Fri Jul  4 05:46:45 PM MDT 2025: Minute 2 of the experiment.
+- Fri Jul  4 05:47:45 PM MDT 2025: Minute 3 of the experiment.
+- Fri Jul  4 05:48:45 PM MDT 2025: Minute 4 of the experiment.
+- Fri Jul  4 05:49:45 PM MDT 2025: Minute 5 of the experiment.
+- Fri Jul  4 05:50:45 PM MDT 2025: Minute 6 of the experiment.
+- Fri Jul  4 05:51:45 PM MDT 2025: Minute 7 of the experiment.
+- Fri Jul  4 05:52:45 PM MDT 2025: Minute 8 of the experiment.
+- Fri Jul  4 05:53:45 PM MDT 2025: Minute 9 of the experiment.
+- Fri Jul  4 05:54:45 PM MDT 2025: Minute 10 of the experiment.
+- Fri Jul  4 05:55:45 PM MDT 2025: Minute 11 of the experiment.
+- Fri Jul  4 05:56:45 PM MDT 2025: Minute 12 of the experiment.
+- Fri Jul  4 05:57:45 PM MDT 2025: Minute 13 of the experiment.
+- Fri Jul  4 05:58:45 PM MDT 2025: Minute 14 of the experiment.
+- Fri Jul  4 05:59:45 PM MDT 2025: Minute 15 of the experiment.
+- Fri Jul  4 06:00:45 PM MDT 2025: Minute 16 of the experiment.
+- Fri Jul  4 06:01:45 PM MDT 2025: Minute 17 of the experiment.
+- Fri Jul  4 06:02:45 PM MDT 2025: Minute 18 of the experiment.
+- Fri Jul  4 06:03:45 PM MDT 2025: Minute 19 of the experiment.
+- Fri Jul  4 06:04:45 PM MDT 2025: Minute 20 of the experiment.
+- Fri Jul  4 06:05:45 PM MDT 2025: Minute 21 of the experiment.
+- Fri Jul  4 06:06:45 PM MDT 2025: Minute 22 of the experiment.
+- Fri Jul  4 06:07:45 PM MDT 2025: Minute 23 of the experiment.
+- Fri Jul  4 06:08:45 PM MDT 2025: Minute 24 of the experiment.
+- Fri Jul  4 06:09:45 PM MDT 2025: Minute 25 of the experiment.
+- Fri Jul  4 06:10:45 PM MDT 2025: Minute 26 of the experiment.
+- Fri Jul  4 06:11:45 PM MDT 2025: Minute 27 of the experiment.
+- Fri Jul  4 06:12:45 PM MDT 2025: Minute 28 of the experiment.
+- Fri Jul  4 06:13:45 PM MDT 2025: Minute 29 of the experiment.
+- Fri Jul  4 06:14:45 PM MDT 2025: Minute 30 of the experiment.
+- Fri Jul  4 06:15:45 PM MDT 2025: Minute 31 of the experiment.
+- Fri Jul  4 06:16:45 PM MDT 2025: Minute 32 of the experiment.
+- Fri Jul  4 06:17:45 PM MDT 2025: Minute 33 of the experiment.
+- Fri Jul  4 06:18:45 PM MDT 2025: Minute 34 of the experiment.
+- Fri Jul  4 06:19:45 PM MDT 2025: Minute 35 of the experiment.
+- Fri Jul  4 06:20:45 PM MDT 2025: Minute 36 of the experiment.
+- Fri Jul  4 06:21:45 PM MDT 2025: Minute 37 of the experiment.
+- Fri Jul  4 06:22:45 PM MDT 2025: Minute 38 of the experiment.
+- Fri Jul  4 06:23:45 PM MDT 2025: Minute 39 of the experiment.
+- Fri Jul  4 06:24:45 PM MDT 2025: Minute 40 of the experiment.
+- Fri Jul  4 06:25:45 PM MDT 2025: Minute 41 of the experiment.
+- Fri Jul  4 06:26:45 PM MDT 2025: Minute 42 of the experiment.
+- Fri Jul  4 06:27:45 PM MDT 2025: Minute 43 of the experiment.
+- Fri Jul  4 06:28:45 PM MDT 2025: Minute 44 of the experiment.
+- Fri Jul  4 06:29:45 PM MDT 2025: Minute 45 of the experiment.
+- Fri Jul  4 06:30:45 PM MDT 2025: Minute 46 of the experiment.
+- Fri Jul  4 06:31:45 PM MDT 2025: Minute 47 of the experiment.
+- Fri Jul  4 06:32:45 PM MDT 2025: Minute 48 of the experiment.
+- Fri Jul  4 06:33:45 PM MDT 2025: Minute 49 of the experiment.
+- Fri Jul  4 06:34:45 PM MDT 2025: Minute 50 of the experiment.
+- Fri Jul  4 06:35:45 PM MDT 2025: Minute 51 of the experiment.
+- Fri Jul  4 06:36:45 PM MDT 2025: Minute 52 of the experiment.
+- Fri Jul  4 06:37:45 PM MDT 2025: Minute 53 of the experiment.
+- Fri Jul  4 06:38:45 PM MDT 2025: Minute 54 of the experiment.
+- Fri Jul  4 06:39:45 PM MDT 2025: Minute 55 of the experiment.
+- Fri Jul  4 06:40:45 PM MDT 2025: Minute 56 of the experiment.
+- Fri Jul  4 06:41:45 PM MDT 2025: Minute 57 of the experiment.
+- Fri Jul  4 06:42:45 PM MDT 2025: Minute 58 of the experiment.
+- Fri Jul  4 06:43:45 PM MDT 2025: Minute 59 of the experiment.
+- Fri Jul  4 06:44:45 PM MDT 2025: Minute 60 of the experiment.

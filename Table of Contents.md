@@ -8,7 +8,9 @@ This file provides a succinct overview of the repository for the AI.
 - **README.md**: The main README file for the project.
 - **src/hello.py**: A simple Python script.
 - **Gemini-thought-experiment.md**: A document that is currently stalled and needs to be revisited.
+- **Gemini-Thought-Experiment-2.md**: The second thought experiment, which successfully tested the `supervisor.sh` script.
 - **mermaid.md**: Contains architectural diagrams.
 - **run.sh**: A script to run the project.
 - **start-gemini-session.sh**: The primary script for initializing a new session.
 - **system-administrator-session-initialization-script.sh**: A fallback script for session initialization.
+- **supervisor.sh**: A script to monitor and restart long-running processes.
